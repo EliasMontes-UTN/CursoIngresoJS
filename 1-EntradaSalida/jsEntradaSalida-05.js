@@ -5,26 +5,27 @@ function mostrar()
 {	
 	
 	var nombreingresado;
-	var edadingresada;
+	var edadingresado;
 	
-	nombreingresada=txtIdnombre.value ;
-    edadingresada=txtIdedad.value ;
+	nombreingresado=document.getElementById("txtIdNombre").value ;
+	edadingresado=document.getElementById("txtIdEdad").value ;
 	
 	/*1 Intento
 	
-	alert(" Usted se llama "+Edadingresada );
-	alert(" y tiene "+edadingresada+ "años ");*/
+	alert("Usted se llama " + edadingresada);
+	alert("y tiene " + edadingresada + " años");*/
 	
 	
 	
 	//2 Intento
 	
-	alert(" Usted se llama"+nombreingresado+" y tiene"+edadingresada+"años ");
+	alert("Usted se llama "+nombreingresado+" y tiene "+edadingresado+" años");
 
 
 	/*Errores
 	No muestra los datos ingresados
-	el error que muestra chrome es el siguiente
+	Creo que el error era estaba puesto ingresada por error en ves de ingresado
+	
 	
 	
 	*/
