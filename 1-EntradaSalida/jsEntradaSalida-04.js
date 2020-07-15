@@ -6,12 +6,12 @@ function mostrar()
 {
 	//1°Intento
 	var nombre;
-	nombre=prompt("Ingresa tu nombre", "Natalia Natalia") ;
-	txtIdNombre .value=nombre
+	nombre = prompt("Ingresa tu nombre", "Natalia Natalia");
+	txtIdNombre.value=nombre;
 
     //2° Intento
     var nombre;
-    nombre=document.getElementById("txtIdNombre").value ;
+    nombre = document.getElementById("txtIdNombre").value;
     alert("Su Nombre es :"+nombre);
 
 

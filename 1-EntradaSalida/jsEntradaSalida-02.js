@@ -4,8 +4,8 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {	
     var nombre ; /*Unica Variable*/
-	nombre=prompt(" ingresa tu nombre", " Natalia ");
-	alert("El nombre ingresado es: "+nombre)
+	nombre = prompt(" ingresa tu nombre", " Natalia ");
+	alert("El nombre ingresado es: "+nombre);
 	
 	//Test
 	//no monstraba nombre

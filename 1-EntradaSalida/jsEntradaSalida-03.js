@@ -11,7 +11,7 @@ function mostrar()
       
 	 //2° Intento
 	 var nombreIngresado;
-	nombreIngresado=document.getElementById("txtIdNombre").value ;
+	nombreIngresado = document.getElementById("txtIdNombre").value;
 	alert("Su Nombre es :"+nombreIngresado);
 
 	/*Errores

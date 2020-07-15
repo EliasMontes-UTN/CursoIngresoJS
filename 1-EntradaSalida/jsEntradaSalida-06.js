@@ -4,27 +4,20 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
+    //1° intento
+	var numero1;
+	var numero2;
+	var resultado;
 	
-	/*1° intento
-	var numerounoingresado;
-	var numerodosingresado;
-
-	numerounoingresado=document.getElementById("txtIdNumeroUno").value ;
-	numerodosingresado=document.getElementById("txtIdNumeroDos").value ;
-
-	alert("Su resultado es :"+ (numerounoingresado + numerodosingresado))*/
- 
-	//2° Intento
-
-    var numerounoingresado = parseInt 
+	numero1 = txtIdNumeroUno.value;
+	numero1 = parseInt(numero1);
 	
+	numero2 = txtIdNumeroDos.value; 
+	numero2 = parseInt(numero2);
 	
- 
-	/*Errores
+	resultado = numero1 + numero2;
 	
-	en ves de sumar los valores solo los juntaba por ejemplo 6+5 en ves de 11 era 65
-
-
-    */
+	alert("El resultado es "+resultado);
 }
-
+	/*Errores
+	Los valores en vez de sumarse se concatenando*/
