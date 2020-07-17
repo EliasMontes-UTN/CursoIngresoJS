@@ -8,20 +8,17 @@ function Sumar ()
     var precio1;
     var precio2;
     var precio3;
-    var suma
+    var suma;
 
-    precio1 = txtIdPrecioUno.value;
-    precio1 = parseInt(precio1);
+    precio1 = parseInt(document.getElementById("txtIdPrecio1").value);
 
-    precio2 = txtIdPrecioDos.value;
-    precio2 = parseInt(precio2);
+    precio2 = parseInt(document.getElementById("txtIdPrecio2").value);
 
-    precio3 = txtIdPrecioTres.value;
-    precio3 = parseInt(precio3);
+    precio3 = parseInt(document.getElementById("txtIdPrecio3").value);
 
-    suma = precio1 + precio2 + precio3;
+    suma = precio1+precio2+precio3;
 
-    alert(suma)
+    alert(suma);
     
 }
 function Promedio () 
@@ -29,18 +26,15 @@ function Promedio ()
     var precio1;
     var precio2;
     var precio3;
-    var promedio
+    var promedio;
 
-    precio1 = txtIdPrecioUno.value;
-    precio1 = parseInt(precio1);
+    precio1 = parseInt(document.getElementById("txtIdPrecio1").value);
 
-    precio2 = txtIdPrecioDos.value;
-    precio2 = parseInt(precio2);
+    precio2 = parseInt(document.getElementById("txtIdPrecio2").value);
 
-    precio3 = txtIdPrecioTres.value;
-    precio3 = parseInt(precio3);
+    precio3 = parseInt(document.getElementById("txtIdPrecio3").value);
 
-    promedio = (precio1 + precio2 + precio3) / 3 ;
+    promedio = (precio1+precio2+precio3) / 3 ;
 
     alert(promedio);
 }
@@ -49,18 +43,15 @@ function PrecioFinal ()
     var precio1;
     var precio2;
     var precio3;
-    var preciofinal
+    var preciofinal;
 
-    precio1 = txtIdPrecioUno.value;
-    precio1 = parseInt(precio1);
+    precio1 = parseInt(document.getElementById("txtIdPrecio1").value);
 
-    precio2 = txtIdPrecioDos.value;
-    precio2 = parseInt(precio2);
+    precio2 = parseInt(document.getElementById("txtIdPrecio2").value);
 
-    precio3 = txtIdPrecioTres.value;
-    precio3 = parseInt(precio3);
+    precio3 = parseInt(document.getElementById("txtIdPrecio3").value);
 
-    preciofinal = (precio1 + precio2 + precio3) * 1.21;
+    preciofinal = (precio1+precio2+precio3) * 1.21;
 
-    alert(preciofinal)
+    alert(preciofinal);
 }
